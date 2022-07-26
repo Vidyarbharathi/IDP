@@ -1,0 +1,54 @@
+Today's Agenda:
+===============
+Handling DropDown
+-->to findElement
+-->select the value
+
+to confirm the element is dropdown--> <select
+the list of values --> <options
+
+selectByIndex-->to pick the option in random
+
+Basic Xpath-XML Path
+
+Absolute Xpath-->white board bus
+(/html/body/div[2]/div[2]/div/form/p/input)[2]
+
+
+Relative Xpath-->point to point
+//tagname[@attribute='value']
+
+Types
+=====
+Attribute based xpath
+//tagname[@attribute='value']
+//label[@for='username']-->label Username
+//input[@id='username']-->Username textbox
+
+Text based xpath
+================
+//tagname[text()='textvalue']
+//div[text()='Training Shoes']-->snapdeal
+//span[text()='15,999']-->amazon
+
+Partial based xpath
+Partial Attribute based xpath
+=============================
+//tagname[contains(@attribute,'att.value')]
+//label[contains(@for,'pass')]-->leaftaps
+//span[contains(@class,'a-price')]->amazon
+
+Partial Text based xpath
+========================
+//tagname[contains(text(),'txtValue')]
+//div[contains(text(),'Training')]-->snapdeal
+
+Collection based Xpath
+==========================
+in xpath-->index always starts 1
+(Relative Xpath)[index]
+(//input[@class='inputLogin'])[2]
+
+
+
+

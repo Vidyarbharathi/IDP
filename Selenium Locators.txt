@@ -1,0 +1,47 @@
+Today's Agenda:
+==============
+Selenium Introduction
+Selenium Architecture
+Introduction to HTML, CSS
+Understand DOM architecture
+Selenium Basic Locators 
+
+
+Selenium ->Jason-2004
+->Simon-->2009-->selenium 1
+
+
+Funtional UI Automation->to overcome Commerical aspect-->QTP
+Selenium framework/library/tool-->4 project
+
+Selenium RC --deprecated
+Selenium IDE--as addon for firefox
+Selenium WebDriver-->selnium 2-->selenium 3-->selenium 4
+Selenium Grid-->
+
+Selenium Webdriver-->Open Source tool
+can talk multiple browser-->chrome,firefox,edge,opera,safari
+can communicate with browser with the languages-->java,C#,python,ruby,Js..
+manily to automate the web applications
+
+Selenium-java-->Webdriver-->browser (Webapplication)
+
+WebDriver-->API-->talk browser--chrome browser-->chromedriver -->executables file/binaries
+
+Selenium-Java-->API -->ChromeDriver-->browser
+           JSON Protocol
+            W3C Protocol
+
+pom.xml-->project object model
+DOM-->Html design webpage/devtools
+
+Selenium Uses locators ->find the element in the webpage
+
+id-->unique-->numbers
+name-->unique-->duplicates/whitespaces/extra-sp characters
+class-->unique-->duplicates/whitespaces/extra-sp characters
+linktext-->a tag with text in black-->number
+xpath-->tagname along attribute
+tagname
+partiallinktext
+CSS
