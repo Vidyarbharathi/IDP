@@ -1,0 +1,96 @@
+Agenda:
+======
+Alert- message / information from the application
+-->can not be inspectable.
+java script funtion
+
+
+Actions with Alert-
+===================
+accept
+dismiss
+SendKeys
+getText
+
+Modal Alert
+
+Simple Alert--Only one option available
+
+Confirmation Alert-- can accept/dismiss the alert
+
+Prompt Alert-->type and accept/dismiss
+
+Non Modal Alert
+
+driver.switchTo().alert;
+ 
+ 
+ Exceptions
+ UnhandledAlertException
+ NoAlertPresent Exception
+ 
+ 
+ Notifications -->from the browser level
+ ================
+ ChromeOptions 
+ ========================================================
+ 
+Frames --
+inline frame-->iframe-->DOM inside DOM-->HTML inside a HTML
+Screenshot
+WebDriver methods->verification 
+===============================
+
+BrowserLevel Verification:
+==========================
+getTitle -->print the title of the current active page
+getCurrentUrl-->
+driver.navigate-->
+
+ElementLevel Verification:
+==========================
+Get the position
+Get the height and width
+Get the backgroundColor
+Get the Attribute Value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Classroom:1
+Alert-leafground
+flights-alert and notifications
+Frames
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_confirm
+ Assignment
+1_ Open Chrome
+2_ Load url
+3_ Take Screenshot of TryIt WebElement and Click TryIt (not: this is inside frame)
+4_ Click Cancel on the alert
+5_ Print the resulting text
