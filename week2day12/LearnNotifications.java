@@ -13,7 +13,7 @@ public class LearnNotifications {
 
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions opt =new ChromeOptions();
-		opt.addArguments("disbale-notification");		
+		opt.addArguments("--disable-notification");		
 		ChromeDriver driver = new ChromeDriver(opt);
 		driver.get("https://www.axisbank.com/");
 		driver.manage().window().maximize();
